@@ -225,4 +225,4 @@ def setup(bot):
 role = ctx.guild.get_role(678555047919091712)
 for member in role.members:
    
-await ctx.send("Done")
+    await ctx.send("Done")
